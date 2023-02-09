@@ -6,6 +6,7 @@ const port = 3000
 // Information using EJS
 app.set('view engine', 'ejs')
 app.use(expressLayouts)
+app.set('layout', 'layout/mainLayout')
 
 // URL Request
 app.get('/', (req, res) => {
